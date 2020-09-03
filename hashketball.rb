@@ -210,9 +210,9 @@ def big_shoe_rebounds
       if shoe_size < value[:players][i][:shoe]
         shoe_size = value[:players][i][:shoe]
         rebound = value[:players][i][:rebounds]
-        i += 1
       end
+      i += 1
     end
   end
-  rebounds
+  rebound
 end
